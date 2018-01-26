@@ -16,7 +16,7 @@ class CoreMLUtil {
   let model2: VNCoreMLModel = setupModel(MobileNet().model)
   let model3: VNCoreMLModel = setupModel(Inceptionv3().model)
   let model4: VNCoreMLModel = setupModel(Resnet50().model)
-//  let model5: VNCoreMLModel = setupModel(VGG16().model)
+  let model5: VNCoreMLModel = setupModel(VGG16().model)
 
   private static func setupModel(_ model: MLModel) -> VNCoreMLModel {
     guard let vnModel = try? VNCoreMLModel(for: model) else {
@@ -29,7 +29,7 @@ class CoreMLUtil {
     makeRequest(image, createRequest(model2, "MobileNet", callback))
     makeRequest(image, createRequest(model3, "Inceptionv3", callback))
     makeRequest(image, createRequest(model4, "Resnet50", callback))
-//    makeRequest(image, createRequest(model5, "VGG16", callback))
+    makeRequest(image, createRequest(model5, "VGG16", callback))
   }
 
   private func makeRequest(_ image: CIImage, _ request: VNCoreMLRequest) {
