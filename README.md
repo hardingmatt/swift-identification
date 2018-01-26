@@ -1,4 +1,4 @@
-# swift-identification ![CoreML](core-ml-64x64.png)
+# swift-identification ![CoreML](images/core-ml-64x64.png)
 Swift iOS CoreML Image Classifier
 
 This app uses 4 top [CoreML Machine Learning classifiers](https://developer.apple.com/machine-learning/) in parallel, to come up with labels for images:
@@ -18,13 +18,18 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/hardingmatt/swift-identification.git
 ```
 
-### Prerequisites
+## Screenshots
 
-What things you need to install the software and how to install them
 
-```
-Give examples
-```
+<img width="200" src="https://github.com/hardingmatt/swift-identification/blob/master/images/IMG_5153.png"> <img width="200" src="https://github.com/hardingmatt/swift-identification/blob/master/images/IMG_5154.png">
+<img width="200" src="https://github.com/hardingmatt/swift-identification/blob/master/images/IMG_5155.png"> <img width="200" src="https://github.com/hardingmatt/swift-identification/blob/master/images/IMG_5156.png">
+
+## Prerequisites
+
+First, you will need:
+
+* XCode 9
+* iOS device running iOS 11
 
 
 ## Built With
@@ -51,5 +56,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Final Thoughts
 
 > There’s no institution in the world that cannot be improved with machine learning.
-
--Jeff Bezos [](https://www.geekwire.com/2017/jeff-bezos-explains-amazons-artificial-intelligence-machine-learning-strategy/)
+> 
+> -Jeff Bezos [](https://www.geekwire.com/2017/jeff-bezos-explains-amazons-artificial-intelligence-machine-learning-strategy/)
